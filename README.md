@@ -1,9 +1,7 @@
 # String converter
 
 ## Project description
-It is a converter that can take a String representing match time in one format, and convert it to a String representing match time in another format.
-
-## Used stack
+It is a Java console converter application that can take a String representing match time in one format, and convert it to a String representing match time in another format.It can read the supplied test data file and output the result to the command line.
 
 ## Examples
 
@@ -23,8 +21,14 @@ It is a converter that can take a String representing match time in one format, 
 | "[PM] -10:00.000"| "INVALID"                    |
 | "FOO"            | "INVALID"                    |
 
+## Design, diagram, structure
+
+## Used tech, requirements
+
 ## Installation
 
 ## Usage
 
 ## Testing
+
+Logging? Demo? Approaches used ...
