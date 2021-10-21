@@ -1,4 +1,4 @@
-# String converter
+# Match time converter console application
 
 ## Project description
 It is a Java console converter application that can take a String representing match time in one format, and convert it to a String representing match time in another format.It can read the supplied test data file and output the result to the command line.
