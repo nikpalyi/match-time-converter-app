@@ -1,5 +1,5 @@
 Draft -
-# Match time converter console application
+# Match time converter CLI Java application
 
 ## Project description
 It is a Java command line converter application that can take a String representing match time in one format and convert it to a String representing match time in another specified format. It can read the supplied test data file and output the result to the command line. Instructions are below in README.
