@@ -63,7 +63,8 @@ match-timeconverter-app
 
 ## Testing
 Coverage
-(Logging? Demo? Approaches used ...)
+
+## (Logging? Demo? Approaches used ...)
 
 ## Instructions
 Used tech, requirements: Java 8, Maven, JUnit, Mockito 
