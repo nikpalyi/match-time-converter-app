@@ -1,7 +1,8 @@
+Draft -
 # Match time converter console application
 
 ## Project description
-It is a Java console converter application that can take a String representing match time in one format, and convert it to a String representing match time in another format.It can read the supplied test data file and output the result to the command line.
+It is a Java command line converter application that can take a String representing match time in one format and convert it to a String representing match time in another specified format. It can read the supplied test data file and output the result to the command line. Instructions are below in README.
 
 ## Examples
 
@@ -21,14 +22,52 @@ It is a Java console converter application that can take a String representing m
 | "[PM] -10:00.000"| "INVALID"                    |
 | "FOO"            | "INVALID"                    |
 
-## Design, diagram, structure
+## File structure
 
-## Used tech, requirements
-
-## Installation
-
-## Usage
+```
+match-timeconverter-app
+│   README.md
+│   ... 
+│
+└src
+│  │
+│  └main
+│  │  └───app
+│  │  │     ConverterApp.java
+│  │  │
+│  │  └───constants
+│  │  │   │    ConverterConstants.java  
+│  │  │   └───enums
+│  │  │        PeriodLongForm.java
+│  │  │        PeriodShortForm.java
+│  │  │         ...
+│  │  │   
+│  │  └───convertion
+│  │  │      ConverterInterface.java
+│  │  │      MatchTimeConverter.java
+│  │  │   
+│  │  └───util
+│  │  │      StringUtil.java
+│  │  │
+│  │  └───validation
+│  │        ValidatorInterface.java
+│  │        ValidateTime.java
+│  │        ValidateTimeFormat.java
+│  │
+│  │
+│  └test
+│     ...
+│
+└pom.xml
+```
 
 ## Testing
+# Coverage
 
-Logging? Demo? Approaches used ...
+(Logging? Demo? Approaches used ...)
+
+## Used tech, requirements:
+ Java 8, Maven, JUnit, Mockito 
+
+## Instructions
+
