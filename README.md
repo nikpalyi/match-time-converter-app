@@ -62,7 +62,7 @@ match-timeconverter-app
 ```
 
 ## Testing
-# Coverage
+Coverage
 
 (Logging? Demo? Approaches used ...)
 
