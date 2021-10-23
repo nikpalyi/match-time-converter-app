@@ -5,9 +5,13 @@ Draft -
 It is a Java command line converter application that can take a String representing match time in one format and convert it to a String representing match time in another specified format. It can read the supplied test data file and output the result to the command line. Instructions are below in README.
 
 The input match time is in the format:
+```
 [period] minutes:seconds.milliseconds
+```
 The output should be in the format:
+```
 normalTimeMinutes:normalTimeSeconds - period
+```
 For the output format, minutes should be padded to two digits and milliseconds should be rounded
 up or down to the nearest whole second. 
 Periods are represented in short-form on the input format and long-form on output format i.e.\
