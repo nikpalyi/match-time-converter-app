@@ -65,15 +65,13 @@ match-timeconverter-app
 │  │  │     MatchTimeConverterApp.java
 │  │  │     MatchTimeValidator.java
 │  │  │     ShortLongPeriodMap.java
+│  │  │     MatchTimeConverter.java
 │  │  │
 │  │  └───constants
 │  │  │   │    ConverterConstants.java  
 │  │  │   └───enums
 │  │  │        LongOutputPeriod.java
-│  │  │        ShortInputPeriod.java      
-│  │  │   
-│  │  └───convertion
-│  │  │      MatchTimeConverter.java
+│  │  │        ShortInputPeriod.java            
 │  │  │   
 │  │  └───util
 │  │        FileUtil.java
