@@ -93,7 +93,7 @@ Unit Testing Coverage: 90% classes, 86% lines covered
 ![code_coverage](src/main/resources/images/coverage.png)
 
 
-## Instructions
+## Instructions for running
 Used tech, requirements: Java 8, Maven, JUnit 
 
 
