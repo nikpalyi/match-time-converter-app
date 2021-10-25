@@ -94,7 +94,7 @@ Plan:
 5. Unit testing
 7. Logging - not completed
 
-## Testing
+## Unit Testing
 
 Unit Testing Coverage: 90% classes, 86% lines covered
 
