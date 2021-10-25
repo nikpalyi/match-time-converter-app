@@ -1,6 +1,5 @@
 package converter;
 
-
 import static converter.MatchTimeValidator.markInvalid;
 import static converter.constants.ConverterConstants.CHAR_DASH;
 import static converter.constants.ConverterConstants.INVALID;
