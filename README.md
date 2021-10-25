@@ -98,7 +98,7 @@ Used tech, requirements: Java 8, Maven, JUnit
 
 ```
 1. Download or clone the code repository
-2. In CMD enter the repository's folder: 'cd mathc-time-converter-app-master'
+2. In Terminal or Command Prompt, enter the repository's folder: 'cd match-time-converter-app-master'
 3. Run 'mvn clean install'
 4. Run a 'mvn clean package'
 5. Run 'java -jar target/MatchTimeConverterApp-1.0-SNAPSHOT.jar ' and press an Enter
