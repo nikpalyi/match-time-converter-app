@@ -26,7 +26,7 @@ When a given period goes into additional time (i.e. > 45:00.000 for first half, 
 the added minutes and seconds are represented separately in the format.
 
 ```
-normalTimeMinutes:normalTimeSeconds + additionalMinutes:additionalSeconds - period
+normalTimeMinutes:normalTimeSeconds +additionalMinutes:additionalSeconds - period
 ```
 
 Any input which does not meet the required input format should result in an output of "INVALID"
