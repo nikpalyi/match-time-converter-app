@@ -87,7 +87,9 @@ match-timeconverter-app
 ```
 
 ## Testing
+
 Unit Testing Coverage: 90% classes, 86% lines covered
+
 ![code_coverage](src/main/resources/images/coverage.png)
 
 
@@ -98,9 +100,8 @@ Used tech, requirements: Java 8, Maven, JUnit
 1. Download or clone the code repository
 2. In CMD enter the repository's folder: 'cd mathc-time-converter-app-master'
 3. Run 'mvn clean install'
-4. Enter the target folder: 'cd target'
-5. Run a 'mvn clean package'
-6. Run 'java -jar target/MatchTimeConverterApp-1.0-SNAPSHOT.jar ' and press an Enter
+4. Run a 'mvn clean package'
+5. Run 'java -jar target/MatchTimeConverterApp-1.0-SNAPSHOT.jar ' and press an Enter
 ```
 
 ![steps in terminal](src/main/resources/images/run.png)
