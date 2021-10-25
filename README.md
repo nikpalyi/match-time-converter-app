@@ -79,7 +79,6 @@ match-timeconverter-app
 │  │        FileUtil.java
 │  │        StringUtil.java
 │  │        FileUtil.java  
-│  │  
 │  │
 │  └test
 │     ...
