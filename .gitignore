@@ -1,11 +1,7 @@
 .idea
 *.idea
 /idea
-analysis.xlsx
 /log
-!/target
-/target/*
-!/target/MatchTimeConverterApp-1.0-SNAPSHOT.jar
 # Compiled class file
 *.class
 
