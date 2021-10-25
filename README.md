@@ -96,13 +96,25 @@ Unit Testing Coverage: 90% classes, 86% lines covered
 ## Instructions
 Used tech, requirements: Java 8, Maven, JUnit 
 
-```
+
 1. Download or clone the code repository
-2. In Terminal or Command Prompt, enter the repository's folder: 'cd match-time-converter-app-master'
-3. Run 'mvn clean install'
-4. Run a 'mvn clean package'
-5. Run 'java -jar target/MatchTimeConverterApp-1.0-SNAPSHOT.jar ' and press an Enter
+2. In Terminal or Command Prompt, enter the repository's folder: 
 ```
+cd match-time-converter-app-master
+```
+3. Run 
+```
+mvn clean install
+```
+4. Run
+```
+mvn clean package
+```
+5. Run 
+``` 
+java -jar target/MatchTimeConverterApp-1.0-SNAPSHOT.jar
+```
+and press an Enter
 
 ![steps in terminal](src/main/resources/images/run.png)
 
