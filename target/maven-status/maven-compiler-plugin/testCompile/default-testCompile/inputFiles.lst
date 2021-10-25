@@ -1,1 +1,4 @@
-/Users/npalyi/Documents/DEV/practice executable jar/project/MatchTimeConverterApp/src/test/java/jar/AppTest.java
+/Users/npalyi/Documents/GitHub/ppb-tries/match-time-converter-app/src/test/java/converter/MatchTimeValidatorTest.java
+/Users/npalyi/Documents/GitHub/ppb-tries/match-time-converter-app/src/test/java/converter/util/FileUtilTest.java
+/Users/npalyi/Documents/GitHub/ppb-tries/match-time-converter-app/src/test/java/converter/util/StringUtilTest.java
+/Users/npalyi/Documents/GitHub/ppb-tries/match-time-converter-app/src/test/java/converter/util/TimeUtilTest.java
