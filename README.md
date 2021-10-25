@@ -1,4 +1,3 @@
-Draft -
 # Match time converter CLI Java application
 
 ## Description
@@ -28,7 +27,7 @@ the added minutes and seconds are represented separately in the format.
 
 normalTimeMinutes:normalTimeSeconds +additionalMinutes:additionalSeconds - period
 
-Any input which does not meet the required input format should result in an output of INVALID
+Any input which does not meet the required input format should result in an output of "INVALID"
 
 ## Examples
 
