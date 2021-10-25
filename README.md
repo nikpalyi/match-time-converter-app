@@ -86,11 +86,11 @@ match-timeconverter-app
 ```
 Plan:
 1. Creating a CLI app
-2. Read input file
-3. Converting String with time
-4. Validating
+2. Read an input file
+3. Converting and formatting String with time content
+4. Validation
 5. Unit testing
-6. Logging - not completed
+7. Logging - not completed
 
 ## Testing
 
@@ -104,7 +104,7 @@ Used tech: Java 8, Maven, JUnit 5, SonarQube tool, Maven fmt plugin
 ## Instructions for running
 Required installation: Java 8, Maven
 
-1. Download or clone the code repository
+1. Download or clone the code repository, https://github.com/nikpalyi/match-time-converter-app/archive/refs/heads/main.zip
 2. In Terminal or Command Prompt, enter the repository's folder: 
 ```
 cd match-time-converter-app-master
