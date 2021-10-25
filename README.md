@@ -84,6 +84,13 @@ match-timeconverter-app
 │
 └pom.xml
 ```
+Plan:
+1. Creating a CLI app
+2. Read input file
+3. Converting String with time
+4. Validating
+5. Unit testing
+6. Logging - not completed
 
 ## Testing
 
@@ -91,10 +98,11 @@ Unit Testing Coverage: 90% classes, 86% lines covered
 
 ![code_coverage](src/main/resources/images/coverage.png)
 
+Used tech: Java 8, Maven, JUnit 5, SonarQube tool, Maven fmt plugin
+
 
 ## Instructions for running
-Used tech, requirements: Java 8, Maven, JUnit 
-
+Required installation: Java 8, Maven
 
 1. Download or clone the code repository
 2. In Terminal or Command Prompt, enter the repository's folder: 
