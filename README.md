@@ -90,10 +90,6 @@ Plan:
 4. Validation
 5. Unit testing
 
-Future plan:
-6. Logging - not completed, issue: could not package maven dependencies as log4fj into JAR, but should work with maven assembly
-7. Refactoring: OOP, SOLID, DI, Mockito
-
 ## Unit Testing
 
 Unit Testing Coverage: 90% classes, 83% lines covered
