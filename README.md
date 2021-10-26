@@ -120,7 +120,7 @@ mvn clean package
 ``` 
 java -jar target/MatchTimeConverterApp-1.0-SNAPSHOT-jar-with-dependencies.jar
 ```
-and press an Enter
+and press an Enter: It should print out the test data content and the converted data
 
 ![steps in terminal](src/main/resources/images/run.png)
 
