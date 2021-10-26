@@ -35,11 +35,11 @@ public class MatchTimeValidator {
     String timeStamp = row.substring(4, length);
     if (!isMatchesWithPattern(timeStamp)) return false;
 
-    if (!isPeriodShortLongValid(periodWithBrackets, timeStamp.trim())) return false;
-    
     String periodWithBrackets = row.substring(1, 3);
     if (!ShortLongPeriodMap.PERIOD_MAP.containsKey(periodWithBrackets)) return false;
-    
+
+    if (!isPeriodShortLongValid(periodWithBrackets, timeStamp.trim())) return false;
+
     if (row.charAt(0) != '[' || row.charAt(3) != ']') return false;
 
     return true;
