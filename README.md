@@ -89,7 +89,10 @@ Plan:
 3. Converting and formatting String with time content
 4. Validation
 5. Unit testing
-7. Logging - not completed
+
+Future plan:
+6. Logging - not completed, issue: could not package maven dependencies as log4fj into JAR, but should work with maven assembly
+7. Refactoring: OOP, SOLID, DI, Mockito
 
 ## Unit Testing
 
