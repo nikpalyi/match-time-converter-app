@@ -109,13 +109,10 @@ class MatchTimeConverterTest {
   }
 
   @Test
-  void returnsInvalidForNonZeroSecondsPreMatchPeriod() {
-    assertEquals(INVALID, convertRow("[PM] 00:01.000"));
-  }
-
-  @Test
-  void returnsInvalidForNonZeroMinutesPreMatchPeriod() {
+  void return_with_invalid_pre_match() {
     assertEquals(INVALID, convertRow("[PM] 01:00.000"));
+    assertEquals(INVALID, convertRow("[PM] 00:01.000"));
+
   }
 
   @Test
