@@ -103,7 +103,7 @@ Used tech: Java 8, Maven, JUnit 5, SonarQube tool, Maven fmt plugin
 ## Instructions for running
 Required installation: Java 8, Maven
 
-1. Download or clone the code repository, https://github.com/nikpalyi/match-time-converter-app/archive/refs/heads/main.zip
+1. Download and unzip or clone the code repository, https://github.com/nikpalyi/match-time-converter-app/archive/refs/heads/main.zip
 2. In Terminal or Command Prompt, enter the repository's folder: 
 ```
 cd match-time-converter-app-main
