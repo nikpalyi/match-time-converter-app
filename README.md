@@ -93,7 +93,7 @@ Plan:
 
 ## Unit Testing
 
-Unit Testing Coverage: 90% classes, 86% lines covered
+Unit Testing Coverage: 90% classes, 83% lines covered
 
 ![code_coverage](src/main/resources/images/coverage.png)
 

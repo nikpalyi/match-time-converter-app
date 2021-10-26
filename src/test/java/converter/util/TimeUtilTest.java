@@ -23,11 +23,11 @@ class TimeUtilTest {
 
   @Test
   void testIsExtraTime() {
-    assertFalse(TimeUtil.isExtraTime(PERIOD_DUMMY, 1));
-    assertFalse(TimeUtil.isExtraTime(PERIOD_H1, 1));
-    assertFalse(TimeUtil.isExtraTime(PERIOD_H2, 1));
-    assertTrue(TimeUtil.isExtraTime(PERIOD_H1, 45));
-    assertTrue(TimeUtil.isExtraTime(PERIOD_H2, 90));
+    assertFalse(TimeUtil.isAdditionalTime(PERIOD_DUMMY, 1));
+    assertFalse(TimeUtil.isAdditionalTime(PERIOD_H1, 1));
+    assertFalse(TimeUtil.isAdditionalTime(PERIOD_H2, 1));
+    assertTrue(TimeUtil.isAdditionalTime(PERIOD_H1, 45));
+    assertTrue(TimeUtil.isAdditionalTime(PERIOD_H2, 90));
   }
 
   @Test

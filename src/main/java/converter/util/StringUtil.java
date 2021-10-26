@@ -25,7 +25,7 @@ public class StringUtil {
         seconds,
         minutesInPeriod(inputPeriod, minutes),
         roundToMinute(milliSeconds),
-        isExtraTime(inputPeriod, minutes));
+        isAdditionalTime(inputPeriod, minutes));
   }
 
   private static String formatMatchTime(
