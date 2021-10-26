@@ -118,7 +118,7 @@ mvn clean package
 ```
 5. Run 
 ``` 
-java -jar target/MatchTimeConverterApp-1.0-SNAPSHOT.jar
+java -jar target/MatchTimeConverterApp-1.0-SNAPSHOT-jar-with-dependencies.jar
 ```
 and press an Enter
 
