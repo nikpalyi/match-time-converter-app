@@ -33,6 +33,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/converter/MatchTimeConverterTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/converter/MatchTimeValidatorTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
       </map>
     </option>
   </component>

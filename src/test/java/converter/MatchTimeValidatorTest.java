@@ -20,7 +20,7 @@ class MatchTimeValidatorTest {
   @Test
   void testMarkInvalid2() {
     ArrayList<String> stringList = new ArrayList<String>();
-    stringList.add("foo");
+    stringList.add("fooo");
     List<String> actualMarkInvalidResult = MatchTimeValidator.markInvalid(stringList);
     assertEquals(1, actualMarkInvalidResult.size());
     assertEquals(ConverterConstants.INVALID, actualMarkInvalidResult.get(0));
@@ -29,10 +29,10 @@ class MatchTimeValidatorTest {
   @Test
   void testMarkInvalid3() {
     ArrayList<String> stringList = new ArrayList<String>();
-    stringList.add("foo");
+    stringList.add("fooo");
     List<String> actualMarkInvalidResult = MatchTimeValidator.markInvalid(stringList);
     assertEquals(1, actualMarkInvalidResult.size());
-    assertEquals("INVALID", actualMarkInvalidResult.get(0));
+    assertEquals(ConverterConstants.INVALID, actualMarkInvalidResult.get(0));
   }
 
   @Test

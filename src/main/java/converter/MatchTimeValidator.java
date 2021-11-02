@@ -29,19 +29,14 @@ public class MatchTimeValidator {
 
   private static boolean isValid(String row) {
     int length = row.length();
-
-    if (length < ConverterConstants.MIN_LENGTH || length > MAX_LENGTH) return false;
-
     String timeStamp = row.substring(4, length);
-    if (!isMatchesWithPattern(timeStamp)) return false;
-
     String periodWithBrackets = row.substring(1, 3);
-    if (!ShortLongPeriodMap.PERIOD_MAP.containsKey(periodWithBrackets)) return false;
 
-    if (!isPeriodShortLongValid(periodWithBrackets, timeStamp.trim())) return false;
-
-    if (row.charAt(0) != '[' || row.charAt(3) != ']') return false;
-
+    if ((length < ConverterConstants.MIN_LENGTH || length > MAX_LENGTH)
+        || (!isMatchesWithPattern(timeStamp))
+        || (!ShortLongPeriodMap.PERIOD_MAP.containsKey(periodWithBrackets))
+        || (!isPeriodShortLongValid(periodWithBrackets, timeStamp.trim()))
+        || (row.charAt(0) != '[' || row.charAt(3) != ']')) return false;
     return true;
   }
 

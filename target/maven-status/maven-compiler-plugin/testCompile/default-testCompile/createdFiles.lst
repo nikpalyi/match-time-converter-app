@@ -1,4 +1,5 @@
 converter/util/StringUtilTest.class
 converter/util/FileUtilTest.class
 converter/util/TimeUtilTest.class
+converter/MatchTimeConverterTest.class
 converter/MatchTimeValidatorTest.class

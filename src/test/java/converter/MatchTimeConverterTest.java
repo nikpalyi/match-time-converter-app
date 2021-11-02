@@ -35,7 +35,7 @@ class MatchTimeConverterTest {
     MatchTimeConverter matchTimeConverter = new MatchTimeConverter();
 
     ArrayList<String> stringList = new ArrayList<String>();
-    stringList.add("foo");
+    stringList.add("fooo");
     List<String> actualConvertResult = matchTimeConverter.convert(stringList);
     assertEquals(1, actualConvertResult.size());
     assertEquals(INVALID, actualConvertResult.get(0));
@@ -46,7 +46,7 @@ class MatchTimeConverterTest {
     MatchTimeConverter matchTimeConverter = new MatchTimeConverter();
 
     ArrayList<String> stringList = new ArrayList<String>();
-    stringList.add("foo");
+    stringList.add("fooo");
     List<String> actualConvertResult =
         Collections.singletonList(converter.convert(Arrays.asList("[PM] 0:00.000")).get(0));
     assertEquals(1, actualConvertResult.size());
