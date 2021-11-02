@@ -46,11 +46,10 @@ public class MatchTimeValidator {
   }
 
   private static boolean isPeriodShortLongValid(String periodWithBrackets, String timeStamp) {
-    if (periodWithBrackets.equals(PM.getShortForm()) && !timeStamp.equals(PRE_MATCH_LONG)) {
-      return false;
-    } else if (periodWithBrackets.equals(HT.getShortForm()) && !timeStamp.equals(HALF_TIME_LONG)) {
-      return false;
-    } else if (periodWithBrackets.equals(FT.getShortForm()) && !timeStamp.equals(FULL_TIME_LONG)) {
+    if ((periodWithBrackets.equals(PM.getShortForm()) && !timeStamp.equals(PRE_MATCH_LONG)
+        || (periodWithBrackets.equals(HT.getShortForm()) && !timeStamp.equals(HALF_TIME_LONG)
+            || (periodWithBrackets.equals(FT.getShortForm())
+                && !timeStamp.equals(FULL_TIME_LONG))))) {
       return false;
     }
     return true;
