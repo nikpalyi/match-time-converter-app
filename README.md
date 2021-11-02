@@ -1,7 +1,8 @@
 # Match time converter CLI Java application
 
 ## Description
-It is a Java command line converter application that can take a String representing match time in one format and convert it to a String representing match time in another specified format. It can read the supplied test data file and output the result to the command line. Instructions are below in README.
+It is a Java command line converter application that can take a String representing match time in one format and convert it to a String representing match time in another specified format. 
+It can read the supplied test data file and output the result to the command line. Instructions are below in README.
 
 The input match time is in the format:
 ```
@@ -13,7 +14,7 @@ normalTimeMinutes:normalTimeSeconds - period
 ```
 For the output format, minutes should be padded to two digits and milliseconds should be rounded
 up or down to the nearest whole second. 
-Periods are represented in short-form on the input format and long-form on output format i.e.\
+Periods are represented in short-form on the input format and long-form on output format i.e.
 |Short form | Long Form  |
 | --------- | ---------- |
 |PM         | PRE_MATCH  |
@@ -102,8 +103,11 @@ Used tech: Java 8, Maven, JUnit 5, SonarQube tool, Maven fmt plugin
 ## Instructions for running
 Required installation: Java 8, Maven
 
-1. Download and unzip at https://github.com/nikpalyi/match-time-converter-app/archive/refs/heads/main.zip or clone the code repository.
-2. In Terminal or Command Prompt, enter the repository's folder: 
+1. Download and unzip at https://github.com/nikpalyi/match-time-converter-app/archive/refs/heads/main.zip or clone the code repository with running in Terminal or Command Prompt:
+```
+git clone https://github.com/nikpalyi/match-time-converter-app.git
+```
+2. Enter the repository's folder: 
 ```
 cd match-time-converter-app-main
 ```
