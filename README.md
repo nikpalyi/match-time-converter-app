@@ -13,7 +13,8 @@ The output should be in the format:
 normalTimeMinutes:normalTimeSeconds - period
 ```
 For the output format, minutes should be padded to two digits and milliseconds should be rounded
-up or down to the nearest whole second. 
+up or down to the nearest whole second.
+
 Periods are represented in short-form on the input format and long-form on output format i.e.
 |Short form | Long Form  |
 | --------- | ---------- |
@@ -87,7 +88,7 @@ match-timeconverter-app
 Plan:
 1. Creating a CLI app
 2. Read an input file
-3. Converting and formatting String with time content
+3. Converting and formatting
 4. Validation
 5. Unit testing
 
