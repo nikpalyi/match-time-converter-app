@@ -20,7 +20,7 @@ public class ShortLongPeriodMap {
     throw new IllegalStateException("PeriodMap class");
   }
 
-  protected static final Map<String, String> PERIOD_MAP;
+  public static final Map<String, String> PERIOD_MAP;
 
   static {
     PERIOD_MAP = new HashMap<>();

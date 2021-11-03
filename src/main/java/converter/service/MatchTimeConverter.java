@@ -1,15 +1,17 @@
-package converter;
+package converter.service;
 
 import static converter.MatchTimeValidator.markInvalid;
 import static converter.constants.ConverterConstants.CHAR_DASH;
 import static converter.constants.ConverterConstants.INVALID;
 import static converter.util.StringUtil.formatMatchTime;
 
+import converter.ShortLongPeriodMap;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MatchTimeConverter {
+public class MatchTimeConverter implements ConverterInterface {
 
+  @Override
   public List<String> convert(List<String> rows) {
     return formatAndValidate((markInvalid(rows)));
   }

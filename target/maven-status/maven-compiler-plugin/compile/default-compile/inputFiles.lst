@@ -2,9 +2,10 @@
 /Users/npalyi/Documents/GitHub/clone-ppb/match-time-converter-app/src/main/java/converter/util/TimeUtil.java
 /Users/npalyi/Documents/GitHub/clone-ppb/match-time-converter-app/src/main/java/converter/util/FileUtil.java
 /Users/npalyi/Documents/GitHub/clone-ppb/match-time-converter-app/src/main/java/converter/constants/enums/ShortInputPeriod.java
-/Users/npalyi/Documents/GitHub/clone-ppb/match-time-converter-app/src/main/java/converter/MatchTimeConverter.java
+/Users/npalyi/Documents/GitHub/clone-ppb/match-time-converter-app/src/main/java/converter/service/ConverterInterface.java
 /Users/npalyi/Documents/GitHub/clone-ppb/match-time-converter-app/src/main/java/converter/MatchTimeValidator.java
 /Users/npalyi/Documents/GitHub/clone-ppb/match-time-converter-app/src/main/java/converter/util/StringUtil.java
 /Users/npalyi/Documents/GitHub/clone-ppb/match-time-converter-app/src/main/java/converter/constants/enums/LongOutputPeriod.java
+/Users/npalyi/Documents/GitHub/clone-ppb/match-time-converter-app/src/main/java/converter/service/MatchTimeConverter.java
 /Users/npalyi/Documents/GitHub/clone-ppb/match-time-converter-app/src/main/java/converter/MatchTimeConverterApp.java
 /Users/npalyi/Documents/GitHub/clone-ppb/match-time-converter-app/src/main/java/converter/ShortLongPeriodMap.java
