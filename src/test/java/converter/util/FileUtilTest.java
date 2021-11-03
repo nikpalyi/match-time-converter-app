@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 class FileUtilTest {
   @Test
   void testReadFile() {
-    assertFalse(FileUtil.readFile("testData.txt").isEmpty());
+    assertFalse(FileUtil.readFile("src/main/resources/testData.txt").isEmpty());
     assertTrue(FileUtil.readFile("/tmp/foo.txt").isEmpty());
   }
 }
