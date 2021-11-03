@@ -28,15 +28,15 @@ public class MatchTimeValidator {
   }
 
   private static boolean isValid(String row) {
+
     int length = row.length();
-
     if (length < ConverterConstants.MIN_LENGTH || length > MAX_LENGTH) return false;
-
-    String timeStamp = row.substring(4, length);
-    if (!isMatchesWithPattern(timeStamp)) return false;
 
     String shortInputPeriod = row.substring(1, 3);
     if (!ShortLongPeriodMap.PERIOD_MAP.containsKey(shortInputPeriod)) return false;
+
+    String timeStamp = row.substring(4, length);
+    if (!isMatchesWithPattern(timeStamp)) return false;
 
     if ((!isPeriodShortLongValid(shortInputPeriod, timeStamp.trim())
         || (row.charAt(0) != '[' || row.charAt(3) != ']'))) return false;
