@@ -53,7 +53,7 @@ Any input which does not meet the required input format should result in an outp
 
 ## File structure
 
-![file_structure](src/main/resources/images/structure.png)
+![file_structure](src/main/resources/images/structure.png=250x)
 
 Plan:
 1. Creating a CLI app
