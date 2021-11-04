@@ -8,8 +8,6 @@ public class ConverterConstants {
     throw new IllegalStateException("ConverterConstants class");
   }
 
-  public static final String INVALID = "INVALID";
-
   public static final String PRE_MATCH_LONG = "0:00.000";
   public static final String HALF_TIME_LONG = "45:00.000";
   public static final String FULL_TIME_LONG = "90:00.000";

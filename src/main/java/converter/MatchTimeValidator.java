@@ -1,9 +1,8 @@
 package converter;
 
-import static converter.constants.ConverterConstants.*;
-import static converter.constants.enums.ShortInputPeriod.*;
-
 import converter.constants.ConverterConstants;
+import converter.constants.Errors;
+import converter.constants.enums.ShortInputPeriod;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
@@ -24,13 +23,14 @@ public class MatchTimeValidator {
 
   private static String validate(String row) {
     if (isValid(row)) return row;
-    return INVALID;
+    return Errors.INVALID;
   }
 
   private static boolean isValid(String row) {
 
     int length = row.length();
-    if (length < ConverterConstants.MIN_LENGTH || length > MAX_LENGTH) return false;
+    if (length < ConverterConstants.MIN_LENGTH || length > ConverterConstants.MAX_LENGTH)
+      return false;
 
     String shortInputPeriod = row.substring(1, 3);
     if (!ShortLongPeriodMap.PERIOD_MAP.containsKey(shortInputPeriod)) return false;
@@ -44,17 +44,19 @@ public class MatchTimeValidator {
   }
 
   private static boolean isPeriodShortLongValid(String periodWithBrackets, String timeStamp) {
-    if ((periodWithBrackets.equals(PM.getShortForm()) && !timeStamp.equals(PRE_MATCH_LONG)
-        || (periodWithBrackets.equals(HT.getShortForm()) && !timeStamp.equals(HALF_TIME_LONG)
-            || (periodWithBrackets.equals(FT.getShortForm())
-                && !timeStamp.equals(FULL_TIME_LONG))))) {
+    if ((periodWithBrackets.equals(ShortInputPeriod.PM.getShortForm())
+            && !timeStamp.equals(ConverterConstants.PRE_MATCH_LONG)
+        || (periodWithBrackets.equals(ShortInputPeriod.HT.getShortForm())
+                && !timeStamp.equals(ConverterConstants.HALF_TIME_LONG)
+            || (periodWithBrackets.equals(ShortInputPeriod.FT.getShortForm())
+                && !timeStamp.equals(ConverterConstants.FULL_TIME_LONG))))) {
       return false;
     }
     return true;
   }
 
   private static boolean isMatchesWithPattern(String time) {
-    return TIME_PATTERN.matcher(time).matches();
+    return ConverterConstants.TIME_PATTERN.matcher(time).matches();
   }
 
   public static boolean checkIfValidFile(String fileName) {

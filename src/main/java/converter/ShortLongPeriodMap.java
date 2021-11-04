@@ -1,16 +1,7 @@
 package converter;
 
-import static converter.constants.enums.LongOutputPeriod.FIRST_HALF;
-import static converter.constants.enums.LongOutputPeriod.FULL_TIME;
-import static converter.constants.enums.LongOutputPeriod.HALF_TIME;
-import static converter.constants.enums.LongOutputPeriod.PRE_MATCH;
-import static converter.constants.enums.LongOutputPeriod.SECOND_HALF;
-import static converter.constants.enums.ShortInputPeriod.FT;
-import static converter.constants.enums.ShortInputPeriod.H1;
-import static converter.constants.enums.ShortInputPeriod.H2;
-import static converter.constants.enums.ShortInputPeriod.HT;
-import static converter.constants.enums.ShortInputPeriod.PM;
-
+import converter.constants.enums.LongOutputPeriod;
+import converter.constants.enums.ShortInputPeriod;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -24,10 +15,10 @@ public class ShortLongPeriodMap {
 
   static {
     PERIOD_MAP = new HashMap<>();
-    PERIOD_MAP.put(PM.getShortForm(), PRE_MATCH.getLongForm());
-    PERIOD_MAP.put(H1.getShortForm(), FIRST_HALF.getLongForm());
-    PERIOD_MAP.put(HT.getShortForm(), HALF_TIME.getLongForm());
-    PERIOD_MAP.put(H2.getShortForm(), SECOND_HALF.getLongForm());
-    PERIOD_MAP.put(FT.getShortForm(), FULL_TIME.getLongForm());
+    PERIOD_MAP.put(ShortInputPeriod.PM.getShortForm(), LongOutputPeriod.PRE_MATCH.getLongForm());
+    PERIOD_MAP.put(ShortInputPeriod.H1.getShortForm(), LongOutputPeriod.FIRST_HALF.getLongForm());
+    PERIOD_MAP.put(ShortInputPeriod.HT.getShortForm(), LongOutputPeriod.HALF_TIME.getLongForm());
+    PERIOD_MAP.put(ShortInputPeriod.H2.getShortForm(), LongOutputPeriod.SECOND_HALF.getLongForm());
+    PERIOD_MAP.put(ShortInputPeriod.FT.getShortForm(), LongOutputPeriod.FULL_TIME.getLongForm());
   }
 }

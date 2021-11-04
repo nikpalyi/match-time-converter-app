@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import converter.constants.ConverterConstants;
+import converter.constants.Errors;
 import java.util.ArrayList;
 import java.util.List;
 import org.junit.jupiter.api.Test;
@@ -23,7 +23,7 @@ class MatchTimeValidatorTest {
     stringList.add("fooo");
     List<String> actualMarkInvalidResult = MatchTimeValidator.markInvalid(stringList);
     assertEquals(1, actualMarkInvalidResult.size());
-    assertEquals(ConverterConstants.INVALID, actualMarkInvalidResult.get(0));
+    assertEquals(Errors.INVALID, actualMarkInvalidResult.get(0));
   }
 
   @Test
@@ -32,7 +32,7 @@ class MatchTimeValidatorTest {
     stringList.add("fooo");
     List<String> actualMarkInvalidResult = MatchTimeValidator.markInvalid(stringList);
     assertEquals(1, actualMarkInvalidResult.size());
-    assertEquals(ConverterConstants.INVALID, actualMarkInvalidResult.get(0));
+    assertEquals(Errors.INVALID, actualMarkInvalidResult.get(0));
   }
 
   @Test

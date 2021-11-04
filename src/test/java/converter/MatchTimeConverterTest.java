@@ -1,9 +1,9 @@
 package converter;
 
-import static converter.constants.ConverterConstants.INVALID;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+import converter.constants.Errors;
 import converter.service.MatchTimeConverter;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -39,7 +39,7 @@ class MatchTimeConverterTest {
     stringList.add("fooo");
     List<String> actualConvertResult = matchTimeConverter.convert(stringList);
     assertEquals(1, actualConvertResult.size());
-    assertEquals(INVALID, actualConvertResult.get(0));
+    assertEquals(Errors.INVALID, actualConvertResult.get(0));
   }
 
   @Test
@@ -101,39 +101,39 @@ class MatchTimeConverterTest {
 
   @Test
   void return_with_invalid_milliseconds() {
-    assertEquals(INVALID, convertRow("[PM] 00:00.001"));
+    assertEquals(Errors.INVALID, convertRow("[PM] 00:00.001"));
   }
 
   @Test
   void return_with_invalid_milliseconds2() {
-    assertEquals(INVALID, convertRow("[H1] 14:14.4444444"));
+    assertEquals(Errors.INVALID, convertRow("[H1] 14:14.4444444"));
   }
 
   @Test
   void return_with_invalid_pre_match() {
-    assertEquals(INVALID, convertRow("[PM] 01:00.000"));
-    assertEquals(INVALID, convertRow("[PM] 00:01.000"));
+    assertEquals(Errors.INVALID, convertRow("[PM] 01:00.000"));
+    assertEquals(Errors.INVALID, convertRow("[PM] 00:01.000"));
   }
 
   @Test
   void return_with_invalid_half_time() {
-    assertEquals(INVALID, convertRow("[HT] 47:00.000"));
+    assertEquals(Errors.INVALID, convertRow("[HT] 47:00.000"));
   }
 
   @Test
   void return_with_invalid_full_time() {
-    assertEquals(INVALID, convertRow("[FT] 91:00.000"));
+    assertEquals(Errors.INVALID, convertRow("[FT] 91:00.000"));
   }
 
   @Test
   void return_with_invalid_time_format() {
-    assertEquals(INVALID, convertRow("[H11] 14:14.000"));
-    assertEquals(INVALID, convertRow("[H1] 0:00.0038"));
-    assertEquals(INVALID, convertRow("[H1]    0:00.004"));
-    assertEquals(INVALID, convertRow("H1] 14:14.000"));
-    assertEquals(INVALID, convertRow("[H1] 0:00.00"));
-    assertEquals(INVALID, convertRow("[H1] 0.00.004"));
-    assertEquals(INVALID, convertRow("[H1]00:00.004"));
-    assertEquals(INVALID, convertRow("[H1]0:00.004"));
+    assertEquals(Errors.INVALID, convertRow("[H11] 14:14.000"));
+    assertEquals(Errors.INVALID, convertRow("[H1] 0:00.0038"));
+    assertEquals(Errors.INVALID, convertRow("[H1]    0:00.004"));
+    assertEquals(Errors.INVALID, convertRow("H1] 14:14.000"));
+    assertEquals(Errors.INVALID, convertRow("[H1] 0:00.00"));
+    assertEquals(Errors.INVALID, convertRow("[H1] 0.00.004"));
+    assertEquals(Errors.INVALID, convertRow("[H1]00:00.004"));
+    assertEquals(Errors.INVALID, convertRow("[H1]0:00.004"));
   }
 }

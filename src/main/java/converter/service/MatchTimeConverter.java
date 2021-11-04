@@ -2,7 +2,7 @@ package converter.service;
 
 import static converter.MatchTimeValidator.markInvalid;
 import static converter.constants.ConverterConstants.CHAR_DASH;
-import static converter.constants.ConverterConstants.INVALID;
+import static converter.constants.Errors.INVALID;
 import static converter.util.StringUtil.formatMatchTime;
 
 import converter.ShortLongPeriodMap;

@@ -5,6 +5,7 @@ converter/MatchTimeConverterApp.class
 converter/service/MatchTimeConverter.class
 converter/util/StringUtil.class
 converter/constants/enums/ShortInputPeriod.class
+converter/constants/Errors.class
 converter/ShortLongPeriodMap.class
 converter/MatchTimeValidator.class
 converter/constants/enums/LongOutputPeriod.class
