@@ -110,4 +110,5 @@ and press an Enter: It should print out the test data content and the converted 
 -  add integration testing if needed
 -  logging with @Slf4j
 -  use lombok for getters and setters, but less important
+-  create another version with Spring, using DP like Factory pattern..
 
