@@ -102,7 +102,7 @@ and press an Enter: It should print out the test data content and the converted 
 
 ![steps in terminal](src/main/resources/images/run.png)
 
-# Next steps TODO:
+### Next steps TODO:
 - reduce iterations usage in validation
 - creating more errors and own exception handler
 -  logging
