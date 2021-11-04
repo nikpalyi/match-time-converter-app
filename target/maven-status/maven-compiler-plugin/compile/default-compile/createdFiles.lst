@@ -3,10 +3,10 @@ converter/util/FileUtil.class
 converter/service/ConverterInterface.class
 converter/MatchTimeConverterApp.class
 converter/service/MatchTimeConverter.class
+converter/domain/ShortLongPeriodMap.class
 converter/util/StringUtil.class
+converter/validation/MatchTimeValidator.class
 converter/constants/enums/ShortInputPeriod.class
 converter/constants/Errors.class
-converter/ShortLongPeriodMap.class
-converter/MatchTimeValidator.class
 converter/constants/enums/LongOutputPeriod.class
 converter/constants/ConverterConstants.class

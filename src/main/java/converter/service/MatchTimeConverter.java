@@ -1,10 +1,10 @@
 package converter.service;
 
-import converter.MatchTimeValidator;
-import converter.ShortLongPeriodMap;
 import converter.constants.ConverterConstants;
 import converter.constants.Errors;
+import converter.domain.ShortLongPeriodMap;
 import converter.util.StringUtil;
+import converter.validation.MatchTimeValidator;
 import java.util.ArrayList;
 import java.util.List;
 

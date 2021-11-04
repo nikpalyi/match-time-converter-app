@@ -1,6 +1,6 @@
 package converter.util;
 
-import static converter.MatchTimeValidator.checkIfValidFile;
+import static converter.validation.MatchTimeValidator.checkIfValidFile;
 
 import java.io.IOException;
 import java.nio.file.Files;

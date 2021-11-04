@@ -1,8 +1,9 @@
-package converter;
+package converter.validation;
 
 import converter.constants.ConverterConstants;
 import converter.constants.Errors;
 import converter.constants.enums.ShortInputPeriod;
+import converter.domain.ShortLongPeriodMap;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;

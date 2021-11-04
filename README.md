@@ -53,38 +53,8 @@ Any input which does not meet the required input format should result in an outp
 
 ## File structure
 
-```
-match-timeconverter-app
-│   README.md
-│   ... 
-│
-└───src
-│  │ │
-│  │ └main
-│  │ └java
-│  │  └converter
-│  │  │      │
-│  │  │     MatchTimeConverterApp.java
-│  │  │     MatchTimeValidator.java
-│  │  │     ShortLongPeriodMap.java
-│  │  │     MatchTimeConverter.java
-│  │  │
-│  │  └───constants
-│  │  │   │    ConverterConstants.java  
-│  │  │   └───enums
-│  │  │        LongOutputPeriod.java
-│  │  │        ShortInputPeriod.java            
-│  │  │   
-│  │  └───util
-│  │        FileUtil.java
-│  │        StringUtil.java
-│  │        FileUtil.java  
-│  │
-│  └test
-│     ...
-│
-└pom.xml
-```
+![file_structure](src/main/resources/images/structure.png)
+
 Plan:
 1. Creating a CLI app
 2. Read an input file

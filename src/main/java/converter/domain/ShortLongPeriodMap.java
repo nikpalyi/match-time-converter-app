@@ -1,4 +1,4 @@
-package converter;
+package converter.domain;
 
 import converter.constants.enums.LongOutputPeriod;
 import converter.constants.enums.ShortInputPeriod;
