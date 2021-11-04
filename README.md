@@ -105,8 +105,8 @@ and press an Enter: It should print out the test data content and the converted 
 ### Next steps TODO:
 - error handling with own error codes and own exception handler
 - logging, @Sl4j(preffered) or Log4j
-- create a version with DI, so Mockito can be used 
-- create another version with Spring, using DP like Factory pattern
-- lombok and apacha StringUtils for more sintactic sugar
+- create a version with DI (@Inject?), so Mockito can be used 
+- create another version with Spring, using DPs like Factory pattern
+- lombok and apache StringUtils for more sintactic sugar
 - try it with different Spring projects
 
