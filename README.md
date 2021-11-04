@@ -103,12 +103,9 @@ and press an Enter: It should print out the test data content and the converted 
 ![steps in terminal](src/main/resources/images/run.png)
 
 ### Next steps TODO:
-- reduce iterations usage in validation
-- creating more errors and own exception handler
--  logging
--  use DI so can use Mockito in unit testing
--  add integration testing if needed
--  logging with @Slf4j
--  use lombok for getters and setters, but less important
--  create another version with Spring, using DP like Factory pattern..
+- error handling with own error codes and own exception handler
+- use DI so can use Mockito in unit testing
+- logging
+- create a version with DI, so Mockito can be used 
+- create another version with Spring, using DP like Factory pattern
 
