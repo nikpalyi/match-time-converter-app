@@ -53,7 +53,89 @@ Any input which does not meet the required input format should result in an outp
 
 ## File structure
 
-![file_structure](src/main/resources/images/structure.png)
+├── MatchTimeConverterApp.iml
+├── README.md
+├── log
+│   └── MatchTimeConverterApp.log
+├── pom.xml
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── converter
+│   │   │       ├── MatchTimeConverter.java
+│   │   │       ├── MatchTimeConverterApp.java
+│   │   │       ├── MatchTimeValidator.java
+│   │   │       ├── ShortLongPeriodMap.java
+│   │   │       ├── constants
+│   │   │       │   ├── ConverterConstants.java
+│   │   │       │   └── enums
+│   │   │       │       ├── LongOutputPeriod.java
+│   │   │       │       └── ShortInputPeriod.java
+│   │   │       └── util
+│   │   │           ├── FileUtil.java
+│   │   │           ├── StringUtil.java
+│   │   │           └── TimeUtil.java
+│   │   └── resources
+│   │       ├── images
+│   │       │   ├── coverage.png
+│   │       │   └── run.png
+│   │       ├── log4j2.xml
+│   │       └── testData.txt
+│   └── test
+│       └── java
+│           └── converter
+│               ├── MatchTimeConverterTest.java
+│               ├── MatchTimeValidatorTest.java
+│               └── util
+│                   ├── FileUtilTest.java
+│                   ├── StringUtilTest.java
+│                   └── TimeUtilTest.java
+└── target
+    ├── MatchTimeConverterApp-1.0-SNAPSHOT.jar
+    ├── classes
+    │   ├── converter
+    │   │   ├── MatchTimeConverter.class
+    │   │   ├── MatchTimeConverterApp.class
+    │   │   ├── MatchTimeValidator.class
+    │   │   ├── ShortLongPeriodMap.class
+    │   │   ├── constants
+    │   │   │   ├── ConverterConstants.class
+    │   │   │   └── enums
+    │   │   │       ├── LongOutputPeriod.class
+    │   │   │       └── ShortInputPeriod.class
+    │   │   └── util
+    │   │       ├── FileUtil.class
+    │   │       ├── StringUtil.class
+    │   │       └── TimeUtil.class
+    │   ├── images
+    │   │   ├── coverage.png
+    │   │   └── run.png
+    │   └── testData.txt
+    ├── generated-sources
+    │   └── annotations
+    ├── generated-test-sources
+    │   └── test-annotations
+    ├── maven-archiver
+    │   └── pom.properties
+    ├── maven-status
+    │   └── maven-compiler-plugin
+    │       ├── compile
+    │       │   └── default-compile
+    │       │       ├── createdFiles.lst
+    │       │       └── inputFiles.lst
+    │       └── testCompile
+    │           └── default-testCompile
+    │               ├── createdFiles.lst
+    │               └── inputFiles.lst
+    └── test-classes
+        └── converter
+            ├── MatchTimeConverterTest.class
+            ├── MatchTimeValidatorTest.class
+            └── util
+                ├── FileUtilTest.class
+                ├── StringUtilTest.class
+                └── TimeUtilTest.class
+
 
 Plan:
 1. Creating a CLI app
