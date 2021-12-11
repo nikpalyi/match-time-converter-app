@@ -53,6 +53,8 @@ Any input which does not meet the required input format should result in an outp
 
 ## File structure
 
+```
+
 ├── MatchTimeConverterApp.iml
 ├── README.md
 ├── log
@@ -135,7 +137,7 @@ Any input which does not meet the required input format should result in an outp
                 ├── FileUtilTest.class
                 ├── StringUtilTest.class
                 └── TimeUtilTest.class
-
+```
 
 Plan:
 1. Creating a CLI app
