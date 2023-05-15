@@ -1,4 +1,4 @@
-# Match time converter CLI Java application
+# Match time converter CLI application
 
 ## Description
 It is a Java command line converter application that can take a String representing match time in one format and convert it to a String representing match time in another specified format. 
