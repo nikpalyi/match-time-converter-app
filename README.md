@@ -55,7 +55,6 @@ Any input which does not meet the required input format should result in an outp
 
 ```
 
-├── MatchTimeConverterApp.iml
 ├── README.md
 ├── log
 │   └── MatchTimeConverterApp.log
@@ -93,50 +92,7 @@ Any input which does not meet the required input format should result in an outp
 │                   ├── StringUtilTest.java
 │                   └── TimeUtilTest.java
 └── target
-    ├── MatchTimeConverterApp-1.0-SNAPSHOT.jar
-    ├── classes
-    │   ├── converter
-    │   │   ├── MatchTimeConverter.class
-    │   │   ├── MatchTimeConverterApp.class
-    │   │   ├── MatchTimeValidator.class
-    │   │   ├── ShortLongPeriodMap.class
-    │   │   ├── constants
-    │   │   │   ├── ConverterConstants.class
-    │   │   │   └── enums
-    │   │   │       ├── LongOutputPeriod.class
-    │   │   │       └── ShortInputPeriod.class
-    │   │   └── util
-    │   │       ├── FileUtil.class
-    │   │       ├── StringUtil.class
-    │   │       └── TimeUtil.class
-    │   ├── images
-    │   │   ├── coverage.png
-    │   │   └── run.png
-    │   └── testData.txt
-    ├── generated-sources
-    │   └── annotations
-    ├── generated-test-sources
-    │   └── test-annotations
-    ├── maven-archiver
-    │   └── pom.properties
-    ├── maven-status
-    │   └── maven-compiler-plugin
-    │       ├── compile
-    │       │   └── default-compile
-    │       │       ├── createdFiles.lst
-    │       │       └── inputFiles.lst
-    │       └── testCompile
-    │           └── default-testCompile
-    │               ├── createdFiles.lst
-    │               └── inputFiles.lst
-    └── test-classes
-        └── converter
-            ├── MatchTimeConverterTest.class
-            ├── MatchTimeValidatorTest.class
-            └── util
-                ├── FileUtilTest.class
-                ├── StringUtilTest.class
-                └── TimeUtilTest.class
+      ...
 ```
 
 ## Design Plan
