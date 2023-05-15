@@ -96,13 +96,13 @@ Any input which does not meet the required input format should result in an outp
 ```
 
 ## Design Plan
-1. Creating a CLI app
-2. Read an input file
-3. Converting and formatting
-4. Validation
-5. Unit testing
+- Creating a CLI app
+- Read an input file
+- Converting and formatting
+- Validation
+- Testing
 
-## Unit Testing
+## Testing Coverage
 
 Unit Testing Coverage: 90% classes, 83% lines covered
 
