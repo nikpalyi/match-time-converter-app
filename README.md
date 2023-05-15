@@ -139,7 +139,7 @@ Any input which does not meet the required input format should result in an outp
                 └── TimeUtilTest.class
 ```
 
-Plan:
+## Design Plan
 1. Creating a CLI app
 2. Read an input file
 3. Converting and formatting
