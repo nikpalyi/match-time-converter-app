@@ -112,7 +112,10 @@ Used tech: Java 8, Maven, JUnit 5, SonarQube tool, Maven fmt plugin
 
 
 ## Instructions for running
-Required installation: Java 8, Maven
+
+#### Required installation: 
+
+Java 8, Maven, Git
 
 1. Download and unzip at https://github.com/nikpalyi/match-time-converter-app/archive/refs/heads/main.zip or clone the code repository with running in Terminal or Command Prompt:
 ```
